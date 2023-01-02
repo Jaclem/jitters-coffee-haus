@@ -1,41 +1,90 @@
 .nav-bar {
-  margin: 0 auto;
+  position: relative;
 }
 
+// image on the main page
 .nav-img {
   position: relative;
   width: 100%;
   height: 800px; // make height: auto; when sizing for phone screen
-  opacity: 0.9;
   background: url('../assets/jitter-banner.jpg') no-repeat center;
   object-fit: cover;
 }
 
+// container that holds the list items home, menu, contact us
 .list-container {
   display: flex;
   position: absolute;
   justify-content: space-around;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-lists {
   list-style-type: none;
-  padding: 10px;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-
 .nav-links {
-  color: rgb(224, 224, 224);
+  color: rgb(223, 223, 223);
   text-decoration: none;
-  // font-family: 'Merienda', cursive;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   letter-spacing: 2px;
+}
+
+// container that holds the h1 and p elements in the middle of the photo
+.welcome-container {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.247);
+  gap: 40px;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome-header {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 7px;
+  font-size: 60px;
+  color: rgb(223, 223, 223);
+  text-shadow: rgb(37, 37, 37) 2px 2px 2px;
+}
+
+.welcome-par {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+  width: 70%;
+  font-style: italic;
+  color: rgb(223, 223, 223);
 }
 
 @media screen and (max-width: 1050px) {
   .nav-img {
     height: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+
+  .nav-img {
+    height: 500px;
+  }
+
+  .welcome-header {
+    font-size: 30px;
+  }
+
+  .welcome-par {
+    font-size: 20px;
+    width: 100%;
   }
 }
