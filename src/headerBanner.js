@@ -17,7 +17,7 @@ function headerBanner() {
   liContainer.className = 'list-container';
   bannerImg.src = jitterBanner;
 
-  bannerHeaderText.textContent = 'JITTER COFFEE HAUS';
+  bannerHeaderText.textContent = 'JITTERS COFFEE HAUS';
   bannerParagraphText.textContent = 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident';
 
   bannerTextContainer.appendChild(bannerHeaderText);
