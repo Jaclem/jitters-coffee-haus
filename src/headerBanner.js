@@ -1,5 +1,4 @@
-import jitterBanner from './assets/jitter-banner.jpg';
-
+import jitterBanner from './assets/paper-background.jpg';
 
 function headerBanner() {
   const navBar = document.createElement('nav');
