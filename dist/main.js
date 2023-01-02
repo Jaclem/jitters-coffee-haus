@@ -24,11 +24,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/jitter-banner.jpg */ "./src/assets/jitter-banner.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Merienda&display=swap);"]);
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Marcellus&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\nhtml,\nbody {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  height: 100vh;\n}\n\n.nav-bar {\n  margin: 0 auto;\n}\n\n.nav-img {\n  position: relative;\n  width: 100%;\n  height: 800px;\n  opacity: 0.9;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  object-fit: cover;\n}\n\n.list-container {\n  display: flex;\n  position: absolute;\n  justify-content: space-around;\n  top: 0;\n  width: 100%;\n}\n\n.nav-lists {\n  list-style-type: none;\n  padding: 10px;\n}\n\n.nav-links {\n  color: rgb(224, 224, 224);\n  text-decoration: none;\n  font-family: \"Yanone Kaffeesatz\", sans-serif;\n  font-size: 25px;\n  letter-spacing: 2px;\n}\n\n@media screen and (max-width: 1050px) {\n  .nav-img {\n    height: auto;\n  }\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss","webpack://./src/style/_header.scss"],"names":[],"mappings":"AAGA;;;EAGE,sBAAA;EACA,UAAA;EACA,SAAA;AAAF;;AAGA;EACE,aAAA;AAAF;;ACZA;EACE,cAAA;ADeF;;ACZA;EACE,kBAAA;EACA,WAAA;EACA,aAAA;EACA,YAAA;EACA,oEAAA;EACA,iBAAA;ADeF;;ACZA;EACE,aAAA;EACA,kBAAA;EACA,6BAAA;EACA,MAAA;EACA,WAAA;ADeF;;ACZA;EACE,qBAAA;EACA,aAAA;ADeF;;ACXA;EACE,yBAAA;EACA,qBAAA;EAEA,4CAAA;EACA,eAAA;EACA,mBAAA;ADaF;;ACVA;EACE;IACE,YAAA;EDaF;AACF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');\r\n\r\n*,\r\nhtml,\r\nbody {\r\n  box-sizing: border-box;\r\n  padding: 0; \r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  height: 100vh;\r\n}\r\n\r\n@import './header';",".nav-bar {\r\n  margin: 0 auto;\r\n}\r\n\r\n.nav-img {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 800px; // make height: auto; when sizing for phone screen\r\n  opacity: 0.9;\r\n  background: url('../assets/jitter-banner.jpg') no-repeat center;\r\n  object-fit: cover;\r\n}\r\n\r\n.list-container {\r\n  display: flex;\r\n  position: absolute;\r\n  justify-content: space-around;\r\n  top: 0;\r\n  width: 100%;\r\n}\r\n\r\n.nav-lists {\r\n  list-style-type: none;\r\n  padding: 10px;\r\n}\r\n\r\n\r\n.nav-links {\r\n  color: rgb(224, 224, 224);\r\n  text-decoration: none;\r\n  // font-family: 'Merienda', cursive;\r\n  font-family: 'Yanone Kaffeesatz', sans-serif;\r\n  font-size: 25px;\r\n  letter-spacing: 2px;\r\n}\r\n\r\n@media screen and (max-width: 1050px) {\r\n  .nav-img {\r\n    height: auto;\r\n  }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\nhtml,\nbody {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  background-color: rgb(231, 231, 231);\n  height: 100vh;\n}\n\n.nav-bar {\n  position: relative;\n}\n\n.nav-img {\n  position: relative;\n  width: 100%;\n  height: 800px;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  object-fit: cover;\n}\n\n.list-container {\n  display: flex;\n  position: absolute;\n  justify-content: space-around;\n  top: 0;\n  width: 100%;\n  z-index: 1;\n}\n\n.nav-lists {\n  list-style-type: none;\n  padding: 20px;\n  margin-top: 20px;\n}\n\n.nav-links {\n  color: rgb(61, 61, 61);\n  text-decoration: none;\n  font-family: \"Yanone Kaffeesatz\", sans-serif;\n  font-size: 18px;\n  letter-spacing: 2px;\n}\n\n.welcome-container {\n  display: flex;\n  position: absolute;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  background-color: rgba(155, 77, 4, 0.425);\n  gap: 40px;\n  top: 0;\n  height: 100%;\n  width: 100%;\n}\n\n.welcome-header {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 7px;\n  font-size: 60px;\n  color: rgb(37, 37, 37);\n}\n\n.welcome-par {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  font-size: 18px;\n  width: 70%;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n\n@media screen and (max-width: 1050px) {\n  .nav-img {\n    height: auto;\n  }\n}\n@media screen and (max-width: 950px) {\n  .nav-img {\n    height: 500px;\n  }\n  .welcome-header {\n    font-size: 30px;\n  }\n  .welcome-par {\n    font-size: 20px;\n    width: 100%;\n  }\n}\n.img-container {\n  display: flex;\n  justify-content: space-evenly;\n  margin-top: 20px;\n}\n.img-container img {\n  height: 400px;\n  width: 300px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}\n.img-container img:hover {\n  transform: scale(1.1);\n}\n\n.title-container {\n  display: flex;\n  justify-content: space-evenly;\n  text-align: center;\n  margin-top: 20px;\n}\n.title-container h1 {\n  font-family: \"Marcellus\", serif;\n  font-size: 25px;\n  letter-spacing: 5px;\n  width: 300px;\n  color: rgb(61, 61, 61);\n}\n\n.menu-container {\n  display: flex;\n  justify-content: column;\n  align-items: center;\n  height: 700px;\n}\n\n.menu-aside-left {\n  height: 200px;\n  width: 50%;\n}\n.menu-aside-left h1 {\n  font-family: \"Marcellus\", serif;\n  color: rgb(61, 61, 61);\n  text-align: center;\n}\n.menu-aside-left p {\n  margin: 20px 0;\n  font-family: \"Marcellus\", serif;\n  text-align: center;\n  letter-spacing: 2px;\n  font-size: 18px;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n.menu-aside-left button {\n  display: flex;\n  margin: auto;\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  padding: 15px 35px;\n  border: none;\n  border-radius: 2px;\n  background-color: orange;\n  cursor: pointer;\n}\n\n.menu-aside-right {\n  text-align: center;\n  width: 50%;\n}\n.menu-aside-right img {\n  height: 500px;\n  width: 400px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss","webpack://./src/style/_header.scss","webpack://./src/style/_main-content.scss"],"names":[],"mappings":"AAEA;;;EAGE,sBAAA;EACA,UAAA;EACA,SAAA;AAAF;;AAGA;EACE,oCAAA;EACA,aAAA;AAAF;;ACZA;EACE,kBAAA;ADeF;;ACXA;EACE,kBAAA;EACA,WAAA;EACA,aAAA;EACA,oEAAA;EACA,iBAAA;ADcF;;ACVA;EACE,aAAA;EACA,kBAAA;EACA,6BAAA;EACA,MAAA;EACA,WAAA;EACA,UAAA;ADaF;;ACVA;EACE,qBAAA;EACA,aAAA;EACA,gBAAA;ADaF;;ACVA;EACE,sBAAA;EACA,qBAAA;EACA,4CAAA;EACA,eAAA;EACA,mBAAA;ADaF;;ACTA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,yCAAA;EACA,SAAA;EACA,MAAA;EACA,YAAA;EACA,WAAA;ADYF;;ACTA;EACE,+BAAA;EACA,mBAAA;EACA,eAAA;EACA,sBAAA;ADYF;;ACTA;EACE,+BAAA;EACA,mBAAA;EACA,eAAA;EACA,UAAA;EACA,kBAAA;EACA,sBAAA;ADYF;;ACTA;EACE;IACE,YAAA;EDYF;AACF;ACTA;EAEE;IACE,aAAA;EDUF;ECPA;IACE,eAAA;EDSF;ECNA;IACE,eAAA;IACA,WAAA;EDQF;AACF;AE9FA;EACE,aAAA;EACA,6BAAA;EACA,gBAAA;AFgGF;AE9FE;EACE,aAAA;EACA,YAAA;EACA,0BAAA;EACA,iBAAA;EACA,eAAA;AFgGJ;AE7FE;EACE,qBAAA;AF+FJ;;AE3FA;EACE,aAAA;EACA,6BAAA;EACA,kBAAA;EACA,gBAAA;AF8FF;AE5FE;EACE,+BAAA;EACA,eAAA;EACA,mBAAA;EACA,YAAA;EACA,sBAAA;AF8FJ;;AE1FA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AF6FF;;AE1FA;EACE,aAAA;EACA,UAAA;AF6FF;AE3FE;EACE,+BAAA;EACA,sBAAA;EACA,kBAAA;AF6FJ;AE1FE;EACE,cAAA;EACA,+BAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,kBAAA;EACA,sBAAA;AF4FJ;AEzFE;EACE,aAAA;EACA,YAAA;EACA,+BAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;EACA,kBAAA;EACA,wBAAA;EACA,eAAA;AF2FJ;;AEvFA;EACE,kBAAA;EACA,UAAA;AF0FF;AExFE;EACE,aAAA;EACA,YAAA;EACA,0BAAA;EACA,iBAAA;EACA,eAAA;AF0FJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');\r\n\r\n*,\r\nhtml,\r\nbody {\r\n  box-sizing: border-box;\r\n  padding: 0; \r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  background-color: rgb(231, 231, 231);\r\n  height: 100vh;\r\n}\r\n\r\n@import './header';\r\n@import './main-content';",".nav-bar {\r\n  position: relative;\r\n}\r\n\r\n// image on the main page\r\n.nav-img {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 800px; // make height: auto; when sizing for phone screen\r\n  background: url('../assets/jitter-banner.jpg') no-repeat center;\r\n  object-fit: cover;\r\n}\r\n\r\n// container that holds the list items home, menu, contact us\r\n.list-container {\r\n  display: flex;\r\n  position: absolute;\r\n  justify-content: space-around;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 1;\r\n}\r\n\r\n.nav-lists {\r\n  list-style-type: none;\r\n  padding: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.nav-links {\r\n  color: rgb(61, 61, 61);\r\n  text-decoration: none;\r\n  font-family: 'Yanone Kaffeesatz', sans-serif;\r\n  font-size: 18px;\r\n  letter-spacing: 2px;\r\n}\r\n\r\n// container that holds the h1 and p elements in the middle of the photo\r\n.welcome-container {\r\n  display: flex;\r\n  position: absolute;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n  background-color: rgba(155, 77, 4, 0.425);\r\n  gap: 40px;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n\r\n.welcome-header {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 7px;\r\n  font-size: 60px;\r\n  color: rgb(37, 37, 37);\r\n}\r\n\r\n.welcome-par {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 2px;\r\n  font-size: 18px;\r\n  width: 70%;\r\n  font-style: italic;\r\n  color: rgb(61, 61, 61);\r\n}\r\n\r\n@media screen and (max-width: 1050px) {\r\n  .nav-img {\r\n    height: auto;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 950px) {\r\n\r\n  .nav-img {\r\n    height: 500px;\r\n  }\r\n\r\n  .welcome-header {\r\n    font-size: 30px;\r\n  }\r\n\r\n  .welcome-par {\r\n    font-size: 20px;\r\n    width: 100%;\r\n  }\r\n}","\r\n.img-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin-top: 20px;\r\n\r\n  img {\r\n    height: 400px;\r\n    width: 300px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n\r\n  img:hover {\r\n    transform: scale(1.1);\r\n  }\r\n}\r\n\r\n.title-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  text-align: center;\r\n  margin-top: 20px;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    font-size: 25px;\r\n    letter-spacing: 5px;\r\n    width: 300px;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n}\r\n\r\n.menu-container {\r\n  display: flex;\r\n  justify-content: column;\r\n  align-items: center;\r\n  height: 700px;\r\n}\r\n\r\n.menu-aside-left {\r\n  height: 200px;\r\n  width: 50%;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(61, 61, 61);\r\n    text-align: center;\r\n  }\r\n\r\n  p {\r\n    margin: 20px 0;\r\n    font-family: 'Marcellus', serif;\r\n    text-align: center;\r\n    letter-spacing: 2px;\r\n    font-size: 18px;\r\n    font-style: italic;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n\r\n  button {\r\n    display: flex;\r\n    margin: auto;\r\n    font-family: 'Marcellus', serif;\r\n    letter-spacing: 2px;\r\n    padding: 15px 35px;\r\n    border: none;\r\n    border-radius: 2px;\r\n    background-color: orange;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.menu-aside-right {\r\n  text-align: center;\r\n  width: 50%;\r\n\r\n  img {\r\n    height: 500px;\r\n    width: 400px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -559,24 +558,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _assets_jitter_banner_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/jitter-banner.jpg */ "./src/assets/jitter-banner.jpg");
-
+/* harmony import */ var _assets_paper_background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/paper-background.jpg */ "./src/assets/paper-background.jpg");
 
 
 function headerBanner() {
   const navBar = document.createElement('nav');
   const liContainer = document.createElement('div');
+  const bannerTextContainer = document.createElement('div');
+  const bannerHeaderText = document.createElement('h1');
+  const bannerParagraphText = document.createElement('p');
   const bannerImg = new Image();
 
   navBar.setAttribute('class', 'nav-bar');
 
+  bannerTextContainer.className = 'welcome-container';
+  bannerHeaderText.className = 'welcome-header';
+  bannerParagraphText.className = 'welcome-par';
   bannerImg.className = 'nav-img';
   liContainer.className = 'list-container';
-  bannerImg.src = _assets_jitter_banner_jpg__WEBPACK_IMPORTED_MODULE_0__;
+  bannerImg.src = _assets_paper_background_jpg__WEBPACK_IMPORTED_MODULE_0__;
 
+  bannerHeaderText.textContent = 'JITTERS COFFEE HAUS';
+  bannerParagraphText.textContent = 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident';
+
+  bannerTextContainer.appendChild(bannerHeaderText);
+  bannerTextContainer.appendChild(bannerParagraphText);
   document.body.appendChild(navBar);
   navBar.appendChild(bannerImg);
   navBar.appendChild(liContainer);
+  navBar.appendChild(bannerTextContainer);
 
   // creates 3 list items and "a" tags to append to the nav-bar element
   for(let i = 0; i < 3; i++) {
@@ -600,10 +610,124 @@ function headerBanner() {
     liTags.appendChild(aTags);
     liContainer.appendChild(liTags);
   }
-
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerBanner());
+
+/***/ }),
+
+/***/ "./src/mainContent.js":
+/*!****************************!*\
+  !*** ./src/mainContent.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _assets_latte_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/latte.jpg */ "./src/assets/latte.jpg");
+/* harmony import */ var _assets_americano_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/americano.jpg */ "./src/assets/americano.jpg");
+/* harmony import */ var _assets_mocha_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/mocha.jpg */ "./src/assets/mocha.jpg");
+/* harmony import */ var _assets_placeholder_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/placeholder.jpg */ "./src/assets/placeholder.jpg");
+
+
+
+
+
+function mainContent() {
+  const mainContainer = document.createElement('main');
+  mainContainer.className = 'main-container';
+  document.body.appendChild(mainContainer);
+
+  const elFactory = (type, parent, ...className) => {
+    const el = document.createElement(type);
+    el.className = className;
+    parent.appendChild(el);
+
+    return el;
+  }
+
+  const imgFactory = (name, src, className, parent) => {
+    name = new Image();
+    name.className = className;
+    name.src = src;
+    parent.appendChild(name);
+  }
+
+  const imgContainer = elFactory('div', mainContainer, 'img-container');
+
+  const latte = imgFactory('latte', _assets_latte_jpg__WEBPACK_IMPORTED_MODULE_0__, 'latte-img', imgContainer);
+  const americano = imgFactory('Americano', _assets_americano_jpg__WEBPACK_IMPORTED_MODULE_1__, 'americano-img', imgContainer);
+  const moca = imgFactory('mocha', _assets_mocha_jpg__WEBPACK_IMPORTED_MODULE_2__, 'mocha-latte', imgContainer);
+
+  const titleContainer = elFactory('div', mainContainer, 'title-container');
+
+  for(let i = 0; i < 3; i++){
+    if(i <= 0){
+      const title = elFactory('h1', titleContainer);
+      title.textContent = 'Latte';
+    } else if(i <= 1){
+      const title = elFactory('h1', titleContainer);
+      title.textContent = 'Americano';
+    } else if(i <= 2) {
+      const title = elFactory('h1', titleContainer);
+      title.textContent = 'Mocha';
+    }
+  }
+
+  const menuContainer = elFactory('div', mainContainer, 'menu-container');
+  const menuContent = elFactory('div', menuContainer, 'menu-aside-left');
+  const menuAside = elFactory('div' , menuContainer, 'menu-aside-right');
+  const menuHeader = elFactory('h1', menuContent);
+  const menuText = elFactory('p', menuContent);
+  const menuBtn = elFactory('button', menuContent);
+
+  const placeholder = imgFactory('placeholder', _assets_placeholder_jpg__WEBPACK_IMPORTED_MODULE_3__, 'placeholder-img', menuAside);
+
+  menuHeader.textContent = 'Test';
+  menuText.textContent = 'ljsdflkjsdf lksdkkfke, l;askkkdfjsl';
+  menuBtn.textContent = 'Menu';
+
+}
+
+//   titleContainer.appendChild(titles);
+// }
+// mainContainer.append(titleContainer, menuContainer);
+
+// const menuContent = document.createElement('div');
+// const menuAside = document.createElement('div');
+// const menuHeader = document.createElement('h1');
+// const menuText = document.createElement('p');
+// const menuBtn = document.createElement('button');
+
+// menuContainer.append(menuContent, menuAside);
+// menuContent.append(menuHeader, menuText, menuBtn);
+// menuAside.append(placeholder);
+
+// menuHeader.textContent = 'Have a look at our menu!';
+// menuText.textContent = 'lkjsdj lkjsdkkke kslla, ljsdf;;aslkdjf, llslieiisi lkjsdj lkjsdkkke kslla, ljsdf;;aslkdjf, llslieiisi';
+// menuBtn.textContent = 'Menu';
+// menuBtn.setAttribute('href', '#');
+
+// menuContent.className = 'menu-aside-left';
+// menuAside.className = 'menu-aside-right';
+
+// const test = elFactory('div', 'test-div', mainContainer);
+// test.append();
+// // mainContainer.appendChild(test);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mainContent());
+
+/***/ }),
+
+/***/ "./src/assets/americano.jpg":
+/*!**********************************!*\
+  !*** ./src/assets/americano.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "americano.jpg";
 
 /***/ }),
 
@@ -614,6 +738,46 @@ function headerBanner() {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "jitter-banner.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/latte.jpg":
+/*!******************************!*\
+  !*** ./src/assets/latte.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "latte.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/mocha.jpg":
+/*!******************************!*\
+  !*** ./src/assets/mocha.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "mocha.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/paper-background.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/paper-background.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "paper-background.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/placeholder.jpg":
+/*!************************************!*\
+  !*** ./src/assets/placeholder.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "placeholder.jpg";
 
 /***/ })
 
@@ -760,10 +924,13 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style/main.scss */ "./src/style/main.scss");
 /* harmony import */ var _headerBanner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./headerBanner */ "./src/headerBanner.js");
+/* harmony import */ var _mainContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mainContent */ "./src/mainContent.js");
 
 
 
-(0,_headerBanner__WEBPACK_IMPORTED_MODULE_1__["default"])();
+
+_headerBanner__WEBPACK_IMPORTED_MODULE_1__["default"];
+_mainContent__WEBPACK_IMPORTED_MODULE_2__["default"];
 })();
 
 /******/ })()

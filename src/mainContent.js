@@ -10,8 +10,11 @@ function mainContent() {
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
-    el.className = className;
     parent.appendChild(el);
+
+    if(className.length !== 0){
+      el.className = className;
+    }
 
     return el;
   }
@@ -57,32 +60,8 @@ function mainContent() {
   menuText.textContent = 'ljsdflkjsdf lksdkkfke, l;askkkdfjsl';
   menuBtn.textContent = 'Menu';
 
+  menuBtn.setAttribute('href', '#');
+
 }
-
-//   titleContainer.appendChild(titles);
-// }
-// mainContainer.append(titleContainer, menuContainer);
-
-// const menuContent = document.createElement('div');
-// const menuAside = document.createElement('div');
-// const menuHeader = document.createElement('h1');
-// const menuText = document.createElement('p');
-// const menuBtn = document.createElement('button');
-
-// menuContainer.append(menuContent, menuAside);
-// menuContent.append(menuHeader, menuText, menuBtn);
-// menuAside.append(placeholder);
-
-// menuHeader.textContent = 'Have a look at our menu!';
-// menuText.textContent = 'lkjsdj lkjsdkkke kslla, ljsdf;;aslkdjf, llslieiisi lkjsdj lkjsdkkke kslla, ljsdf;;aslkdjf, llslieiisi';
-// menuBtn.textContent = 'Menu';
-// menuBtn.setAttribute('href', '#');
-
-// menuContent.className = 'menu-aside-left';
-// menuAside.className = 'menu-aside-right';
-
-// const test = elFactory('div', 'test-div', mainContainer);
-// test.append();
-// // mainContainer.appendChild(test);
 
 export default mainContent();
