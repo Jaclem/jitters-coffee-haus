@@ -1,8 +1,9 @@
 
 function footer() {
   const footerContainer = document.createElement('div');
+  const content = document.getElementById('content');
   footerContainer.className = 'footer-container';
-  document.body.appendChild(footerContainer);
+  content.appendChild(footerContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
@@ -22,9 +23,9 @@ function footer() {
   elementHeader.textContent = 'Jitters Coffee Haus';
   elementText.textContent = 'The most delicious caffeinated drinks this side of Atlanta';
 
-  const subscribeConatiner = elFactory('div', footerContainer, 'sub-container');
-  const subLabel = elFactory('label', subscribeConatiner);
-  const subDiv = elFactory('div', subscribeConatiner, 'sub-div');
+  const subContainer = elFactory('div', footerContainer, 'sub-container');
+  const subLabel = elFactory('label', subContainer);
+  const subDiv = elFactory('div', subContainer, 'sub-div');
   const subInput = elFactory('input', subDiv);
   const subBtn = elFactory('button', subDiv);
 
@@ -32,4 +33,4 @@ function footer() {
   subBtn.textContent = 'Subscribe';  
 }
 
-export default footer();
+export {footer};

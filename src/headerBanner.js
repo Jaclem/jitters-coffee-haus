@@ -6,6 +6,7 @@ function headerBanner() {
   const bannerTextContainer = document.createElement('div');
   const bannerHeaderText = document.createElement('h1');
   const bannerParagraphText = document.createElement('p');
+  const content = document.getElementById('content');
   const bannerImg = new Image();
 
   navBar.setAttribute('class', 'nav-bar');
@@ -22,7 +23,7 @@ function headerBanner() {
 
   bannerTextContainer.appendChild(bannerHeaderText);
   bannerTextContainer.appendChild(bannerParagraphText);
-  document.body.appendChild(navBar);
+  content.appendChild(navBar);
   navBar.appendChild(bannerImg);
   navBar.appendChild(liContainer);
   navBar.appendChild(bannerTextContainer);
@@ -37,12 +38,15 @@ function headerBanner() {
 
     if(i <= 0){
       aTags.textContent = 'Home';
+      aTags.setAttribute('id', 'home-btn');
       aTags.setAttribute('href', '#');
     } else if(i <= 1){
       aTags.textContent = 'Menu';
+      aTags.setAttribute('id', 'menu-btn');
       aTags.setAttribute('href', '#');
     } else if(i <= 2) {
       aTags.textContent = 'Contact Us';
+      aTags.setAttribute('id', 'contact-btn');
       aTags.setAttribute('href', '#');
     }
 
@@ -51,4 +55,4 @@ function headerBanner() {
   }
 }
 
-export default headerBanner();
+export {headerBanner};

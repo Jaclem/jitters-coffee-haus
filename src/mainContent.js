@@ -5,8 +5,10 @@ import placeholderImg from './assets/placeholder.jpg';
 
 function mainContent() {
   const mainContainer = document.createElement('main');
+  const content = document.getElementById('content');
+
   mainContainer.className = 'main-container';
-  document.body.appendChild(mainContainer);
+  content.appendChild(mainContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
@@ -64,4 +66,4 @@ function mainContent() {
 
 }
 
-export default mainContent();
+export {mainContent};
