@@ -7,17 +7,20 @@ import { menu } from './menu';
 headerBanner();
 mainContent();
 footer();
-menu();
+// menu();
 
 const menuBtn = document.getElementById('menu-btn');
 const homeBtn = document.getElementById('home-btn');
 
+let clicked = false;
+
 homeBtn.addEventListener('click', () => {
-  headerBanner();
-  mainContent();
-  footer();
+  if(clicked) {
+    mainContent();
+  }
 })
 
 menuBtn.addEventListener('click', () => {
   menu();
+  clicked = true;
 });

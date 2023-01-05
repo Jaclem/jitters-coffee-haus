@@ -5,10 +5,10 @@ import placeholderImg from './assets/placeholder.jpg';
 
 function mainContent() {
   const mainContainer = document.createElement('main');
-  const content = document.getElementById('content');
+  const navBar = document.querySelector('.nav-bar');
 
   mainContainer.className = 'main-container';
-  content.appendChild(mainContainer);
+  navBar.after(mainContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);

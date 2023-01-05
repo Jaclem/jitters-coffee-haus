@@ -1,0 +1,20 @@
+
+.menu {
+  height: 400px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-family: 'Marcellus', serif;
+  color: rgb(61, 61, 61);
+  width: 100%;
+  margin: 50px;
+}
+
+.menu-item-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
