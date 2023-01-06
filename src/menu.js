@@ -7,7 +7,7 @@ function menu() {
 
   removeAllChildNodes(mainContainer);
 
-  mainContainer.classList.add('menu');
+  // menuContainer.className = 'menu';
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
