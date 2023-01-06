@@ -4,11 +4,15 @@ import mochaImg from './assets/mocha.jpg';
 import placeholderImg from './assets/placeholder.jpg';
 
 function mainContent() {
-  const mainContainer = document.createElement('main');
+  const mainContainer = document.querySelector('.main-container');
   const navBar = document.querySelector('.nav-bar');
 
-  mainContainer.className = 'main-container';
-  navBar.after(mainContainer);
+  function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
+  }
+  removeAllChildNodes(mainContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);

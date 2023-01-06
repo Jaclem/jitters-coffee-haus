@@ -4,9 +4,16 @@ function menu() {
   const navBar = document.querySelector('.nav-bar');
   const menuContainer = document.createElement('div');
 
-  if(mainContainer != null){
-    mainContainer.remove();
+  // if(mainContainer != null){
+  //   mainContainer.remove();
+  // }
+
+  function removeAllChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
   }
+  removeAllChildNodes(mainContainer);
 
   menuContainer.className = 'menu';
 

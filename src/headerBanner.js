@@ -1,15 +1,13 @@
 import jitterBanner from './assets/paper-background.jpg';
 
 function headerBanner() {
-  const navBar = document.createElement('nav');
+  // const navBar = document.createElement('nav');
+  const navBar = document.querySelector('.nav-bar');
   const liContainer = document.createElement('div');
   const bannerTextContainer = document.createElement('div');
   const bannerHeaderText = document.createElement('h1');
   const bannerParagraphText = document.createElement('p');
-  const content = document.getElementById('content');
   const bannerImg = new Image();
-
-  navBar.setAttribute('class', 'nav-bar');
 
   bannerTextContainer.className = 'welcome-container';
   bannerHeaderText.className = 'welcome-header';
@@ -23,10 +21,9 @@ function headerBanner() {
 
   bannerTextContainer.appendChild(bannerHeaderText);
   bannerTextContainer.appendChild(bannerParagraphText);
-  content.appendChild(navBar);
-  navBar.appendChild(bannerImg);
-  navBar.appendChild(liContainer);
-  navBar.appendChild(bannerTextContainer);
+
+  navBar.append(bannerImg, liContainer, bannerTextContainer);
+
 
   // creates 3 list items and "a" tags to append to the nav-bar element
   for(let i = 0; i < 3; i++) {

@@ -1,6 +1,6 @@
 
 function footer() {
-  const footerContainer = document.createElement('div');
+  const footerContainer = document.querySelector('.footer-container');
   const content = document.getElementById('content');
   footerContainer.className = 'footer-container';
   content.appendChild(footerContainer);
