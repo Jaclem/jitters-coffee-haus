@@ -1,20 +1,37 @@
 
 .menu {
-  height: 400px;
+  height: 550px;
+
+  .menu-h1 {
+    font-family: 'Marcellus', serif;
+    color: rgb(61, 61, 61);
+    font-size: 70px;
+    text-align: center;
+    margin: 30px;
+  }
 }
 
 .menu-header {
   display: flex;
   justify-content: center;
   gap: 100px;
+  font-size: 25px;
   font-family: 'Marcellus', serif;
   color: rgb(61, 61, 61);
-  width: 100%;
-  margin: 50px;
+  padding: 50px;
 }
 
 .menu-item-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(4, 30px);
+  justify-content: center;
+  column-gap: 100px;
+  margin: auto;
+
+  p {
+    font-size: 20px;
+    font-family: 'Marcellus', serif;
+    color: rgb(61, 61, 61);
+  }
 }

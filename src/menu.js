@@ -3,7 +3,10 @@ function menu() {
   const mainContainer = document.querySelector('.main-container');
   const navBar = document.querySelector('.nav-bar');
   const menuContainer = document.createElement('div');
-  mainContainer.remove();
+
+  if(mainContainer != null){
+    mainContainer.remove();
+  }
 
   menuContainer.className = 'menu';
 
@@ -20,10 +23,12 @@ function menu() {
 
   navBar.after(menuContainer);
 
+  const menuWelcome = elFactory('h1', menuContainer, 'menu-h1');
   const header = elFactory('div', menuContainer, 'menu-header');
   const iced = elFactory('h1', header);
   const hot = elFactory('h1', header);
 
+  menuWelcome.textContent = "Menu";
   iced.textContent = "Iced";
   hot.textContent = "Hot";
 
@@ -39,6 +44,19 @@ function menu() {
 
   const mocha = elFactory('p', menuItemsContainer);
   const milkTea = elFactory('p', menuItemsContainer);
+
+  espresso.textContent = "Espresso - $5";
+  chocolate.textContent = "Chocolate - $5";
+
+  latte.textContent = "Latte - $4";
+  flatWhite.textContent = "Flat White - $5";
+
+  cocoa.textContent = "Cocoa - $5";
+  cappuccino.textContent = "Cappuccino - $5";
+
+  mocha.textContent = "Mocha - $3";
+  milkTea.textContent = "Milk Tea - $6.5";
+
 }
 
 export {menu};

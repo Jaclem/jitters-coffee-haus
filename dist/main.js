@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Marcellus&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\nhtml,\nbody {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  background-color: rgb(231, 231, 231);\n  height: 100vh;\n}\n\n.nav-bar {\n  position: relative;\n}\n\n.nav-img {\n  position: relative;\n  width: 100%;\n  height: 800px;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  object-fit: cover;\n}\n\n.list-container {\n  display: flex;\n  position: absolute;\n  justify-content: space-around;\n  top: 0;\n  width: 100%;\n  z-index: 1;\n}\n\n.nav-lists {\n  list-style-type: none;\n  padding: 20px;\n  margin-top: 20px;\n}\n\n.nav-links {\n  color: rgb(61, 61, 61);\n  text-decoration: none;\n  font-family: \"Yanone Kaffeesatz\", sans-serif;\n  font-size: 18px;\n  letter-spacing: 2px;\n}\n\n.welcome-container {\n  display: flex;\n  position: absolute;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  background-color: rgba(155, 77, 4, 0.425);\n  gap: 40px;\n  top: 0;\n  height: 100%;\n  width: 100%;\n}\n\n.welcome-header {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 7px;\n  font-size: 60px;\n  color: rgb(37, 37, 37);\n}\n\n.welcome-par {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  font-size: 18px;\n  width: 70%;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n\n@media screen and (max-width: 1050px) {\n  .nav-img {\n    height: auto;\n  }\n}\n@media screen and (max-width: 950px) {\n  .nav-img {\n    height: 500px;\n  }\n  .welcome-header {\n    font-size: 30px;\n  }\n  .welcome-par {\n    font-size: 20px;\n    width: 100%;\n  }\n}\n.img-container {\n  display: flex;\n  justify-content: space-evenly;\n  margin-top: 20px;\n}\n.img-container img {\n  height: 400px;\n  width: 300px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}\n.img-container img:hover {\n  transform: scale(1.1);\n}\n\n.title-container {\n  display: flex;\n  justify-content: space-evenly;\n  text-align: center;\n  margin-top: 20px;\n}\n.title-container h1 {\n  font-family: \"Marcellus\", serif;\n  font-size: 25px;\n  letter-spacing: 5px;\n  width: 300px;\n  color: rgb(61, 61, 61);\n}\n\n.menu-container {\n  display: flex;\n  justify-content: column;\n  align-items: center;\n  height: 700px;\n}\n\n.menu-aside-left {\n  height: 200px;\n  width: 50%;\n}\n.menu-aside-left h1 {\n  font-family: \"Marcellus\", serif;\n  color: rgb(61, 61, 61);\n  text-align: center;\n}\n.menu-aside-left p {\n  margin: 20px 0;\n  font-family: \"Marcellus\", serif;\n  text-align: center;\n  letter-spacing: 2px;\n  font-size: 18px;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n.menu-aside-left button {\n  display: flex;\n  margin: auto;\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  padding: 15px 35px;\n  border: none;\n  border-radius: 2px;\n  background-color: orange;\n  cursor: pointer;\n}\n\n.menu-aside-right {\n  text-align: center;\n  width: 50%;\n}\n.menu-aside-right img {\n  height: 500px;\n  width: 400px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}\n\n.footer-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  gap: 25px;\n  height: 190px;\n  background-color: #121212;\n}\n\n.element-one {\n  width: 300px;\n}\n\n.footer-container {\n  padding: 20px;\n}\n.footer-container h1 {\n  font-family: \"Marcellus\", serif;\n  color: rgb(171, 171, 171);\n  margin-bottom: 20px;\n}\n.footer-container p {\n  font-family: \"Marcellus\", serif;\n  color: rgb(171, 171, 171);\n}\n\n.sub-container {\n  height: 100px;\n  width: 500px;\n}\n.sub-container label {\n  align-items: center;\n  text-align: center;\n  color: rgb(171, 171, 171);\n}\n\n.sub-div {\n  display: flex;\n  gap: 10px;\n  margin-top: 20px;\n}\n.sub-div input {\n  border: none;\n  background-color: rgb(231, 231, 231);\n  padding-left: 5px;\n}\n.sub-div button {\n  font-family: \"Marcellus\", serif;\n  padding: 3px 20px;\n  border: none;\n  border-radius: 3px;\n  background-color: orange;\n  color: white;\n  cursor: pointer;\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss","webpack://./src/style/_header.scss","webpack://./src/style/_main-content.scss","webpack://./src/style/_footer.scss"],"names":[],"mappings":"AAEA;;;EAGE,sBAAA;EACA,UAAA;EACA,SAAA;AAAF;;AAGA;EACE,oCAAA;EACA,aAAA;AAAF;;ACZA;EACE,kBAAA;ADeF;;ACXA;EACE,kBAAA;EACA,WAAA;EACA,aAAA;EACA,oEAAA;EACA,iBAAA;ADcF;;ACVA;EACE,aAAA;EACA,kBAAA;EACA,6BAAA;EACA,MAAA;EACA,WAAA;EACA,UAAA;ADaF;;ACVA;EACE,qBAAA;EACA,aAAA;EACA,gBAAA;ADaF;;ACVA;EACE,sBAAA;EACA,qBAAA;EACA,4CAAA;EACA,eAAA;EACA,mBAAA;ADaF;;ACTA;EACE,aAAA;EACA,kBAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,yCAAA;EACA,SAAA;EACA,MAAA;EACA,YAAA;EACA,WAAA;ADYF;;ACTA;EACE,+BAAA;EACA,mBAAA;EACA,eAAA;EACA,sBAAA;ADYF;;ACTA;EACE,+BAAA;EACA,mBAAA;EACA,eAAA;EACA,UAAA;EACA,kBAAA;EACA,sBAAA;ADYF;;ACTA;EACE;IACE,YAAA;EDYF;AACF;ACTA;EAEE;IACE,aAAA;EDUF;ECPA;IACE,eAAA;EDSF;ECNA;IACE,eAAA;IACA,WAAA;EDQF;AACF;AE9FA;EACE,aAAA;EACA,6BAAA;EACA,gBAAA;AFgGF;AE9FE;EACE,aAAA;EACA,YAAA;EACA,0BAAA;EACA,iBAAA;EACA,eAAA;AFgGJ;AE7FE;EACE,qBAAA;AF+FJ;;AE3FA;EACE,aAAA;EACA,6BAAA;EACA,kBAAA;EACA,gBAAA;AF8FF;AE5FE;EACE,+BAAA;EACA,eAAA;EACA,mBAAA;EACA,YAAA;EACA,sBAAA;AF8FJ;;AE1FA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AF6FF;;AE1FA;EACE,aAAA;EACA,UAAA;AF6FF;AE3FE;EACE,+BAAA;EACA,sBAAA;EACA,kBAAA;AF6FJ;AE1FE;EACE,cAAA;EACA,+BAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,kBAAA;EACA,sBAAA;AF4FJ;AEzFE;EACE,aAAA;EACA,YAAA;EACA,+BAAA;EACA,mBAAA;EACA,kBAAA;EACA,YAAA;EACA,kBAAA;EACA,wBAAA;EACA,eAAA;AF2FJ;;AEvFA;EACE,kBAAA;EACA,UAAA;AF0FF;AExFE;EACE,aAAA;EACA,YAAA;EACA,0BAAA;EACA,iBAAA;EACA,eAAA;AF0FJ;;AG7KA;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;EACA,SAAA;EACA,aAAA;EACA,yBAAA;AHgLF;;AG7KA;EACE,YAAA;AHgLF;;AG7KA;EACE,aAAA;AHgLF;AG9KE;EACE,+BAAA;EACA,yBAAA;EACA,mBAAA;AHgLJ;AG7KE;EACE,+BAAA;EACA,yBAAA;AH+KJ;;AG3KA;EACE,aAAA;EACA,YAAA;AH8KF;AG5KE;EACE,mBAAA;EACA,kBAAA;EACA,yBAAA;AH8KJ;;AG1KA;EACE,aAAA;EACA,SAAA;EACA,gBAAA;AH6KF;AG3KE;EACE,YAAA;EACA,oCAAA;EACA,iBAAA;AH6KJ;AG1KE;EACE,+BAAA;EACA,iBAAA;EACA,YAAA;EACA,kBAAA;EACA,wBAAA;EACA,YAAA;EACA,eAAA;AH4KJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');\r\n\r\n*,\r\nhtml,\r\nbody {\r\n  box-sizing: border-box;\r\n  padding: 0; \r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  background-color: rgb(231, 231, 231);\r\n  height: 100vh;\r\n}\r\n\r\n@import './header';\r\n@import './main-content';\r\n@import './footer';",".nav-bar {\r\n  position: relative;\r\n}\r\n\r\n// image on the main page\r\n.nav-img {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 800px; // make height: auto; when sizing for phone screen\r\n  background: url('../assets/jitter-banner.jpg') no-repeat center;\r\n  object-fit: cover;\r\n}\r\n\r\n// container that holds the list items home, menu, contact us\r\n.list-container {\r\n  display: flex;\r\n  position: absolute;\r\n  justify-content: space-around;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 1;\r\n}\r\n\r\n.nav-lists {\r\n  list-style-type: none;\r\n  padding: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.nav-links {\r\n  color: rgb(61, 61, 61);\r\n  text-decoration: none;\r\n  font-family: 'Yanone Kaffeesatz', sans-serif;\r\n  font-size: 18px;\r\n  letter-spacing: 2px;\r\n}\r\n\r\n// container that holds the h1 and p elements in the middle of the photo\r\n.welcome-container {\r\n  display: flex;\r\n  position: absolute;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n  background-color: rgba(155, 77, 4, 0.425);\r\n  gap: 40px;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n\r\n.welcome-header {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 7px;\r\n  font-size: 60px;\r\n  color: rgb(37, 37, 37);\r\n}\r\n\r\n.welcome-par {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 2px;\r\n  font-size: 18px;\r\n  width: 70%;\r\n  font-style: italic;\r\n  color: rgb(61, 61, 61);\r\n}\r\n\r\n@media screen and (max-width: 1050px) {\r\n  .nav-img {\r\n    height: auto;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 950px) {\r\n\r\n  .nav-img {\r\n    height: 500px;\r\n  }\r\n\r\n  .welcome-header {\r\n    font-size: 30px;\r\n  }\r\n\r\n  .welcome-par {\r\n    font-size: 20px;\r\n    width: 100%;\r\n  }\r\n}","\r\n.img-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin-top: 20px;\r\n\r\n  img {\r\n    height: 400px;\r\n    width: 300px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n\r\n  img:hover {\r\n    transform: scale(1.1);\r\n  }\r\n}\r\n\r\n.title-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  text-align: center;\r\n  margin-top: 20px;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    font-size: 25px;\r\n    letter-spacing: 5px;\r\n    width: 300px;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n}\r\n\r\n.menu-container {\r\n  display: flex;\r\n  justify-content: column;\r\n  align-items: center;\r\n  height: 700px;\r\n}\r\n\r\n.menu-aside-left {\r\n  height: 200px;\r\n  width: 50%;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(61, 61, 61);\r\n    text-align: center;\r\n  }\r\n\r\n  p {\r\n    margin: 20px 0;\r\n    font-family: 'Marcellus', serif;\r\n    text-align: center;\r\n    letter-spacing: 2px;\r\n    font-size: 18px;\r\n    font-style: italic;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n\r\n  button {\r\n    display: flex;\r\n    margin: auto;\r\n    font-family: 'Marcellus', serif;\r\n    letter-spacing: 2px;\r\n    padding: 15px 35px;\r\n    border: none;\r\n    border-radius: 2px;\r\n    background-color: orange;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.menu-aside-right {\r\n  text-align: center;\r\n  width: 50%;\r\n\r\n  img {\r\n    height: 500px;\r\n    width: 400px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n}\r\n",".footer-container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-evenly;\r\n  gap: 25px;\r\n  height: 190px;\r\n  background-color: #121212;\r\n}\r\n\r\n.element-one {\r\n  width: 300px;\r\n}\r\n\r\n.footer-container {\r\n  padding: 20px;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(171, 171, 171);\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  p {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(171, 171, 171); \r\n  }\r\n}\r\n\r\n.sub-container {\r\n  height: 100px;\r\n  width: 500px;\r\n\r\n  label {\r\n    align-items: center;\r\n    text-align: center;\r\n    color: rgb(171, 171, 171);\r\n  }\r\n}\r\n\r\n.sub-div {\r\n  display: flex;\r\n  gap: 10px;\r\n  margin-top: 20px;\r\n\r\n  input {\r\n    border: none;\r\n    background-color: rgb(231, 231, 231);\r\n    padding-left: 5px;\r\n  }\r\n\r\n  button {\r\n    font-family: 'Marcellus', serif;\r\n    padding: 3px 20px;\r\n    border: none;\r\n    border-radius: 3px;\r\n    background-color: orange;\r\n    color: white;\r\n    cursor: pointer;\r\n  }\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\nhtml,\nbody {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n}\n\nbody {\n  background-color: rgb(231, 231, 231);\n  height: 100vh;\n}\n\n.nav-bar {\n  position: relative;\n}\n\n.nav-img {\n  position: relative;\n  width: 100%;\n  height: 800px;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat center;\n  object-fit: cover;\n}\n\n.list-container {\n  display: flex;\n  position: absolute;\n  justify-content: space-around;\n  top: 0;\n  width: 100%;\n  z-index: 1;\n}\n\n.nav-lists {\n  list-style-type: none;\n  padding: 20px;\n  margin-top: 20px;\n}\n\n.nav-links {\n  color: rgb(61, 61, 61);\n  text-decoration: none;\n  font-family: \"Yanone Kaffeesatz\", sans-serif;\n  font-size: 18px;\n  letter-spacing: 2px;\n}\n\n.welcome-container {\n  display: flex;\n  position: absolute;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  background-color: rgba(155, 77, 4, 0.425);\n  gap: 40px;\n  top: 0;\n  height: 100%;\n  width: 100%;\n}\n\n.welcome-header {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 7px;\n  font-size: 60px;\n  color: rgb(37, 37, 37);\n}\n\n.welcome-par {\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  font-size: 18px;\n  width: 70%;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n\n@media screen and (max-width: 1050px) {\n  .nav-img {\n    height: auto;\n  }\n}\n@media screen and (max-width: 950px) {\n  .nav-img {\n    height: 500px;\n  }\n  .welcome-header {\n    font-size: 30px;\n  }\n  .welcome-par {\n    font-size: 20px;\n    width: 100%;\n  }\n}\n.img-container {\n  display: flex;\n  justify-content: space-evenly;\n  margin-top: 20px;\n}\n.img-container img {\n  height: 400px;\n  width: 300px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}\n.img-container img:hover {\n  transform: scale(1.1);\n}\n\n.title-container {\n  display: flex;\n  justify-content: space-evenly;\n  text-align: center;\n  margin-top: 20px;\n}\n.title-container h1 {\n  font-family: \"Marcellus\", serif;\n  font-size: 25px;\n  letter-spacing: 5px;\n  width: 300px;\n  color: rgb(61, 61, 61);\n}\n\n.menu-container {\n  display: flex;\n  justify-content: column;\n  align-items: center;\n  height: 700px;\n}\n\n.menu-aside-left {\n  height: 200px;\n  width: 50%;\n}\n.menu-aside-left h1 {\n  font-family: \"Marcellus\", serif;\n  color: rgb(61, 61, 61);\n  text-align: center;\n}\n.menu-aside-left p {\n  margin: 20px 0;\n  font-family: \"Marcellus\", serif;\n  text-align: center;\n  letter-spacing: 2px;\n  font-size: 18px;\n  font-style: italic;\n  color: rgb(61, 61, 61);\n}\n.menu-aside-left button {\n  display: flex;\n  margin: auto;\n  font-family: \"Marcellus\", serif;\n  letter-spacing: 2px;\n  padding: 15px 35px;\n  border: none;\n  border-radius: 2px;\n  background-color: orange;\n  cursor: pointer;\n}\n\n.menu-aside-right {\n  text-align: center;\n  width: 50%;\n}\n.menu-aside-right img {\n  height: 500px;\n  width: 400px;\n  transition: transform 0.1s;\n  object-fit: cover;\n  cursor: pointer;\n}\n\n.visibility {\n  display: none;\n}\n\n.footer-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-evenly;\n  gap: 25px;\n  height: 190px;\n  background-color: #121212;\n}\n\n.element-one {\n  width: 300px;\n}\n\n.footer-container {\n  padding: 20px;\n}\n.footer-container h1 {\n  font-family: \"Marcellus\", serif;\n  color: rgb(171, 171, 171);\n  margin-bottom: 20px;\n}\n.footer-container p {\n  font-family: \"Marcellus\", serif;\n  color: rgb(171, 171, 171);\n}\n\n.sub-container {\n  height: 100px;\n  width: 500px;\n}\n.sub-container label {\n  align-items: center;\n  text-align: center;\n  color: rgb(171, 171, 171);\n}\n\n.sub-div {\n  display: flex;\n  gap: 10px;\n  margin-top: 20px;\n}\n.sub-div input {\n  border: none;\n  background-color: rgb(231, 231, 231);\n  padding-left: 5px;\n}\n.sub-div button {\n  font-family: \"Marcellus\", serif;\n  padding: 3px 20px;\n  border: none;\n  border-radius: 3px;\n  background-color: orange;\n  color: white;\n  cursor: pointer;\n}\n\n.menu {\n  height: 400px;\n}\n\n.menu-header {\n  display: flex;\n  justify-content: center;\n  gap: 100px;\n  font-family: \"Marcellus\", serif;\n  color: rgb(61, 61, 61);\n  width: 100%;\n  margin: 50px;\n}\n\n.menu-item-container {\n  display: grid;\n  grid-template-columns: repeat(2, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n}", "",{"version":3,"sources":["webpack://./src/style/main.scss","webpack://./src/style/_header.scss","webpack://./src/style/_main-content.scss","webpack://./src/style/_footer.scss","webpack://./src/style/_menu.scss"],"names":[],"mappings":"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","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');\r\n\r\n*,\r\nhtml,\r\nbody {\r\n  box-sizing: border-box;\r\n  padding: 0; \r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  background-color: rgb(231, 231, 231);\r\n  height: 100vh;\r\n}\r\n\r\n@import './header';\r\n@import './main-content';\r\n@import './footer';\r\n@import './menu';",".nav-bar {\r\n  position: relative;\r\n}\r\n\r\n// image on the main page\r\n.nav-img {\r\n  position: relative;\r\n  width: 100%;\r\n  height: 800px; // make height: auto; when sizing for phone screen\r\n  background: url('../assets/jitter-banner.jpg') no-repeat center;\r\n  object-fit: cover;\r\n}\r\n\r\n// container that holds the list items home, menu, contact us\r\n.list-container {\r\n  display: flex;\r\n  position: absolute;\r\n  justify-content: space-around;\r\n  top: 0;\r\n  width: 100%;\r\n  z-index: 1;\r\n}\r\n\r\n.nav-lists {\r\n  list-style-type: none;\r\n  padding: 20px;\r\n  margin-top: 20px;\r\n}\r\n\r\n.nav-links {\r\n  color: rgb(61, 61, 61);\r\n  text-decoration: none;\r\n  font-family: 'Yanone Kaffeesatz', sans-serif;\r\n  font-size: 18px;\r\n  letter-spacing: 2px;\r\n}\r\n\r\n// container that holds the h1 and p elements in the middle of the photo\r\n.welcome-container {\r\n  display: flex;\r\n  position: absolute;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  text-align: center;\r\n  background-color: rgba(155, 77, 4, 0.425);\r\n  gap: 40px;\r\n  top: 0;\r\n  height: 100%;\r\n  width: 100%;\r\n}\r\n\r\n.welcome-header {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 7px;\r\n  font-size: 60px;\r\n  color: rgb(37, 37, 37);\r\n}\r\n\r\n.welcome-par {\r\n  font-family: 'Marcellus', serif;\r\n  letter-spacing: 2px;\r\n  font-size: 18px;\r\n  width: 70%;\r\n  font-style: italic;\r\n  color: rgb(61, 61, 61);\r\n}\r\n\r\n@media screen and (max-width: 1050px) {\r\n  .nav-img {\r\n    height: auto;\r\n  }\r\n}\r\n\r\n@media screen and (max-width: 950px) {\r\n\r\n  .nav-img {\r\n    height: 500px;\r\n  }\r\n\r\n  .welcome-header {\r\n    font-size: 30px;\r\n  }\r\n\r\n  .welcome-par {\r\n    font-size: 20px;\r\n    width: 100%;\r\n  }\r\n}","\r\n.img-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin-top: 20px;\r\n\r\n  img {\r\n    height: 400px;\r\n    width: 300px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n\r\n  img:hover {\r\n    transform: scale(1.1);\r\n  }\r\n}\r\n\r\n.title-container {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  text-align: center;\r\n  margin-top: 20px;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    font-size: 25px;\r\n    letter-spacing: 5px;\r\n    width: 300px;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n}\r\n\r\n.menu-container {\r\n  display: flex;\r\n  justify-content: column;\r\n  align-items: center;\r\n  height: 700px;\r\n}\r\n\r\n.menu-aside-left {\r\n  height: 200px;\r\n  width: 50%;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(61, 61, 61);\r\n    text-align: center;\r\n  }\r\n\r\n  p {\r\n    margin: 20px 0;\r\n    font-family: 'Marcellus', serif;\r\n    text-align: center;\r\n    letter-spacing: 2px;\r\n    font-size: 18px;\r\n    font-style: italic;\r\n    color: rgb(61, 61, 61);\r\n  }\r\n\r\n  button {\r\n    display: flex;\r\n    margin: auto;\r\n    font-family: 'Marcellus', serif;\r\n    letter-spacing: 2px;\r\n    padding: 15px 35px;\r\n    border: none;\r\n    border-radius: 2px;\r\n    background-color: orange;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.menu-aside-right {\r\n  text-align: center;\r\n  width: 50%;\r\n\r\n  img {\r\n    height: 500px;\r\n    width: 400px;\r\n    transition: transform .1s;\r\n    object-fit: cover;\r\n    cursor: pointer;\r\n  }\r\n}\r\n\r\n.visibility {\r\n  display: none;\r\n}",".footer-container {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: space-evenly;\r\n  gap: 25px;\r\n  height: 190px;\r\n  background-color: #121212;\r\n}\r\n\r\n.element-one {\r\n  width: 300px;\r\n}\r\n\r\n.footer-container {\r\n  padding: 20px;\r\n\r\n  h1 {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(171, 171, 171);\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  p {\r\n    font-family: 'Marcellus', serif;\r\n    color: rgb(171, 171, 171); \r\n  }\r\n}\r\n\r\n.sub-container {\r\n  height: 100px;\r\n  width: 500px;\r\n\r\n  label {\r\n    align-items: center;\r\n    text-align: center;\r\n    color: rgb(171, 171, 171);\r\n  }\r\n}\r\n\r\n.sub-div {\r\n  display: flex;\r\n  gap: 10px;\r\n  margin-top: 20px;\r\n\r\n  input {\r\n    border: none;\r\n    background-color: rgb(231, 231, 231);\r\n    padding-left: 5px;\r\n  }\r\n\r\n  button {\r\n    font-family: 'Marcellus', serif;\r\n    padding: 3px 20px;\r\n    border: none;\r\n    border-radius: 3px;\r\n    background-color: orange;\r\n    color: white;\r\n    cursor: pointer;\r\n  }\r\n}","\r\n.menu {\r\n  height: 400px;\r\n}\r\n\r\n.menu-header {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 100px;\r\n  font-family: 'Marcellus', serif;\r\n  color: rgb(61, 61, 61);\r\n  width: 100%;\r\n  margin: 50px;\r\n}\r\n\r\n.menu-item-container {\r\n  display: grid;\r\n  grid-template-columns: repeat(2, 1fr);\r\n  grid-template-rows: repeat(2, 1fr);\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -556,13 +556,14 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "footer": () => (/* binding */ footer)
 /* harmony export */ });
 
 function footer() {
   const footerContainer = document.createElement('div');
+  const content = document.getElementById('content');
   footerContainer.className = 'footer-container';
-  document.body.appendChild(footerContainer);
+  content.appendChild(footerContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
@@ -592,7 +593,7 @@ function footer() {
   subBtn.textContent = 'Subscribe';  
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (footer());
+
 
 /***/ }),
 
@@ -604,7 +605,7 @@ function footer() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "headerBanner": () => (/* binding */ headerBanner)
 /* harmony export */ });
 /* harmony import */ var _assets_paper_background_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/paper-background.jpg */ "./src/assets/paper-background.jpg");
 
@@ -615,6 +616,7 @@ function headerBanner() {
   const bannerTextContainer = document.createElement('div');
   const bannerHeaderText = document.createElement('h1');
   const bannerParagraphText = document.createElement('p');
+  const content = document.getElementById('content');
   const bannerImg = new Image();
 
   navBar.setAttribute('class', 'nav-bar');
@@ -631,7 +633,7 @@ function headerBanner() {
 
   bannerTextContainer.appendChild(bannerHeaderText);
   bannerTextContainer.appendChild(bannerParagraphText);
-  document.body.appendChild(navBar);
+  content.appendChild(navBar);
   navBar.appendChild(bannerImg);
   navBar.appendChild(liContainer);
   navBar.appendChild(bannerTextContainer);
@@ -663,7 +665,7 @@ function headerBanner() {
   }
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerBanner());
+
 
 /***/ }),
 
@@ -675,7 +677,7 @@ function headerBanner() {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "mainContent": () => (/* binding */ mainContent)
 /* harmony export */ });
 /* harmony import */ var _assets_latte_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/latte.jpg */ "./src/assets/latte.jpg");
 /* harmony import */ var _assets_americano_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/americano.jpg */ "./src/assets/americano.jpg");
@@ -688,8 +690,10 @@ __webpack_require__.r(__webpack_exports__);
 
 function mainContent() {
   const mainContainer = document.createElement('main');
+  const navBar = document.querySelector('.nav-bar');
+
   mainContainer.className = 'main-container';
-  document.body.appendChild(mainContainer);
+  navBar.after(mainContainer);
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
@@ -747,7 +751,64 @@ function mainContent() {
 
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (mainContent());
+
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "menu": () => (/* binding */ menu)
+/* harmony export */ });
+
+function menu() {
+  const mainContainer = document.querySelector('.main-container');
+  const navBar = document.querySelector('.nav-bar');
+  const menuContainer = document.createElement('div');
+  mainContainer.remove();
+
+  menuContainer.className = 'menu';
+
+  const elFactory = (type, parent, ...className) => {
+    const el = document.createElement(type);
+    parent.appendChild(el);
+
+    if(className.length !== 0){
+      el.className = className;
+    }
+
+    return el;
+  }
+
+  navBar.after(menuContainer);
+
+  const header = elFactory('div', menuContainer, 'menu-header');
+  const iced = elFactory('h1', header);
+  const hot = elFactory('h1', header);
+
+  iced.textContent = "Iced";
+  hot.textContent = "Hot";
+
+  const menuItemsContainer = elFactory('p', menuContainer, 'menu-item-container');
+  const espresso = elFactory('p', menuItemsContainer);
+  const chocolate = elFactory('p', menuItemsContainer);
+
+  const latte = elFactory('p', menuItemsContainer);
+  const flatWhite = elFactory('p', menuItemsContainer);
+
+  const cocoa = elFactory('p', menuItemsContainer);
+  const cappuccino = elFactory('p', menuItemsContainer);
+
+  const mocha = elFactory('p', menuItemsContainer);
+  const milkTea = elFactory('p', menuItemsContainer);
+}
+
+
 
 /***/ }),
 
@@ -956,31 +1017,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _headerBanner__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./headerBanner */ "./src/headerBanner.js");
 /* harmony import */ var _mainContent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mainContent */ "./src/mainContent.js");
 /* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer */ "./src/footer.js");
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
 
 
 
 
+
+
+(0,_headerBanner__WEBPACK_IMPORTED_MODULE_1__.headerBanner)();
+(0,_mainContent__WEBPACK_IMPORTED_MODULE_2__.mainContent)();
+(0,_footer__WEBPACK_IMPORTED_MODULE_3__.footer)();
+// menu();
 
 const menuBtn = document.getElementById('menu-btn');
+const homeBtn = document.getElementById('home-btn');
 
-let menuClicked = false;
+let clicked = false;
 
-_mainContent__WEBPACK_IMPORTED_MODULE_2__["default"];
-_footer__WEBPACK_IMPORTED_MODULE_3__["default"];
+homeBtn.addEventListener('click', () => {
+  if(clicked) {
+    (0,_mainContent__WEBPACK_IMPORTED_MODULE_2__.mainContent)();
+  }
+})
 
-// do {
-//   headerBanner;
-//   mainContent;
-//   footer;
-// } while (menuClicked == false);
-
-console.log(menuBtn);
-menuBtn.addEventListener('click', (e) => {
-  _headerBanner__WEBPACK_IMPORTED_MODULE_1__["default"];
-  _footer__WEBPACK_IMPORTED_MODULE_3__["default"];
-  menuClicked = true;
+menuBtn.addEventListener('click', () => {
+  ;(0,_menu__WEBPACK_IMPORTED_MODULE_4__.menu)();
+  clicked = true;
 });
-
 
 })();
 
