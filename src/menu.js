@@ -1,21 +1,13 @@
+import { removeAllChildNodes } from "./removeChildren";
 
 function menu() {
   const mainContainer = document.querySelector('.main-container');
   const navBar = document.querySelector('.nav-bar');
-  const menuContainer = document.createElement('div');
+  // const menuContainer = document.createElement('div');
 
-  // if(mainContainer != null){
-  //   mainContainer.remove();
-  // }
-
-  function removeAllChildNodes(parent) {
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-  }
   removeAllChildNodes(mainContainer);
 
-  menuContainer.className = 'menu';
+  // menuContainer.className = 'menu';
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
@@ -28,10 +20,9 @@ function menu() {
     return el;
   }
 
-  navBar.after(menuContainer);
 
-  const menuWelcome = elFactory('h1', menuContainer, 'menu-h1');
-  const header = elFactory('div', menuContainer, 'menu-header');
+  const menuWelcome = elFactory('h1', mainContainer, 'menu-h1');
+  const header = elFactory('div', mainContainer, 'menu-header');
   const iced = elFactory('h1', header);
   const hot = elFactory('h1', header);
 
@@ -39,7 +30,7 @@ function menu() {
   iced.textContent = "Iced";
   hot.textContent = "Hot";
 
-  const menuItemsContainer = elFactory('p', menuContainer, 'menu-item-container');
+  const menuItemsContainer = elFactory('p', mainContainer, 'menu-item-container');
   const espresso = elFactory('p', menuItemsContainer);
   const chocolate = elFactory('p', menuItemsContainer);
 
