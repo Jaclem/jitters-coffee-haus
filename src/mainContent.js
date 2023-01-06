@@ -2,17 +2,15 @@ import latteImg from './assets/latte.jpg';
 import americanoImg from './assets/americano.jpg';
 import mochaImg from './assets/mocha.jpg';
 import placeholderImg from './assets/placeholder.jpg';
+import { removeAllChildNodes } from './removeChildren';
 
 function mainContent() {
   const mainContainer = document.querySelector('.main-container');
   const navBar = document.querySelector('.nav-bar');
 
-  function removeAllChildNodes(parent) {
-    while (parent.firstChild) {
-        parent.removeChild(parent.firstChild);
-    }
-  }
   removeAllChildNodes(mainContainer);
+
+  mainContainer.classList.remove('menu');
 
   const elFactory = (type, parent, ...className) => {
     const el = document.createElement(type);
