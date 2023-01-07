@@ -3,6 +3,7 @@ import americanoImg from './assets/americano.jpg';
 import mochaImg from './assets/mocha.jpg';
 import placeholderImg from './assets/placeholder.jpg';
 import { removeAllChildNodes } from './removeChildren';
+import { elFactory } from './elFactory';
 
 function mainContent() {
   const mainContainer = document.querySelector('.main-container');
@@ -11,17 +12,7 @@ function mainContent() {
   removeAllChildNodes(mainContainer);
 
   mainContainer.classList.remove('menu');
-
-  const elFactory = (type, parent, ...className) => {
-    const el = document.createElement(type);
-    parent.appendChild(el);
-
-    if(className.length !== 0){
-      el.className = className;
-    }
-
-    return el;
-  }
+  mainContainer.classList.remove('contact');
 
   const imgFactory = (name, src, className, parent) => {
     name = new Image();
@@ -61,8 +52,10 @@ function mainContent() {
   const placeholder = imgFactory('placeholder', placeholderImg, 'placeholder-img', menuAside);
 
   menuHeader.textContent = 'Test';
-  menuText.textContent = 'ljsdflkjsdf lksdkkfke, l;askkkdfjsl';
+  menuText.textContent = 'Have a look at our hand-crafted coffee\'s and latte\'s';
   menuBtn.textContent = 'Menu';
+
+  menuBtn.id = 'middle-menu-btn';
 
   menuBtn.setAttribute('href', '#');
 

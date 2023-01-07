@@ -1,25 +1,14 @@
 import { removeAllChildNodes } from "./removeChildren";
+import { elFactory } from "./elFactory";
 
 function menu() {
   const mainContainer = document.querySelector('.main-container');
   const navBar = document.querySelector('.nav-bar');
-  // const menuContainer = document.createElement('div');
 
   removeAllChildNodes(mainContainer);
 
   mainContainer.classList.add('menu');
-
-  const elFactory = (type, parent, ...className) => {
-    const el = document.createElement(type);
-    parent.appendChild(el);
-
-    if(className.length !== 0){
-      el.className = className;
-    }
-
-    return el;
-  }
-
+  mainContainer.classList.remove('contact');
 
   const menuWelcome = elFactory('h1', mainContainer, 'menu-h1');
   const header = elFactory('div', mainContainer, 'menu-header');
